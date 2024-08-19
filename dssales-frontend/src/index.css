@@ -4,6 +4,8 @@
   --primary-color: #283142;
   --secondary-color: #1B2531;
   --light-color: #E9E9E9;
+  --grey-light-50-color: #9AAABE;
+  --grey-light-100-color: #384459;
 }
 
 * {
@@ -24,4 +26,9 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+.base-card {
+  background-color: var(--primary-color);
+  border-radius: 10px;
 }

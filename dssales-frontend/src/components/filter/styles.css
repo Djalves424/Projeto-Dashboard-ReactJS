@@ -1,0 +1,29 @@
+.filter-conteiner {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.filter-input {
+  height: 45px;
+  background-color: var(--secondary-color);
+  color: var(--grey-light-50-color);
+  font-size: 16px;
+  border: 1px solid #384459;
+  border: 1px solid var(--grey-light-100-color);
+  border-radius: 10px;
+  width: 250px;
+  padding: 12px 5px 12px 20px;
+}
+
+.filter-input ::placeholder {
+  color: var(--grey-light-50-color);
+  font-size: 16px;
+}
+
+.filter-input:first-of-type {
+  margin-right: 55px;
+}
