@@ -1,0 +1,42 @@
+.sales-by-date-conteiner {
+  height: 390px;
+  padding: 25px 15px 50px 30px;
+}
+
+.sales-by-date-title {
+  font-size: 24px;
+  color: var(--light-color);
+  margin-bottom: 5px;
+}
+
+.sales-by-date-period {
+  color: var(--grey-light-100-color);
+}
+
+.sales-by-date-data {
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sales-by-date-quantity {
+  font-size: 36px;
+  color: var(--light-color);
+}
+
+.sales-by-date-quantity-label {
+  color: var(--green-color);
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sales-by-date-quantity-description {
+  font-size: 18px;
+  color: var(--grey-light-100-color);
+}
+
+.sales-by-date-chart {
+  width: 890px;
+}

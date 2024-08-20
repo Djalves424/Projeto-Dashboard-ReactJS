@@ -5,7 +5,9 @@
   --secondary-color: #1B2531;
   --light-color: #E9E9E9;
   --grey-light-50-color: #9AAABE;
-  --grey-light-100-color: #384459;
+  --grey-light-100-color: #949494;
+  --grey-light-150-color: #384459;
+  --green-color: #08B976;
 }
 
 * {
