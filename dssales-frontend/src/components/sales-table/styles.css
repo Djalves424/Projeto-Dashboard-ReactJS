@@ -1,0 +1,40 @@
+.sales-table-container {
+  margin-bottom: 50px;
+  padding: 30px 35px;
+}
+
+.sales-table-title {
+  font-size: 18px;
+}
+
+.sales-table {
+  width: 100%;
+  margin-top: 30px;
+  border-spacing: 0;
+}
+
+.sales-table thead th {
+  text-align: left;
+  height: 55px;
+  font-size: 16px;
+}
+
+.sales-table tbody td {
+  height: 55px;
+  border-top: 1px solid var(--grey-light-125-color);
+  font-size: 18px;
+  transition: background .3s;
+}
+
+
+.sales-table tbody tr:hover>td {
+  background-color: var(--grey-light-150-color);
+}
+
+.sales-table tbody tr:nth-child(even) {
+  background-color: var(--primary-color);
+}
+
+.sales-table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
