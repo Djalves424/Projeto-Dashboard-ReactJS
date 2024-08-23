@@ -4,6 +4,7 @@ import Header from "./components/header";
 import SalesByDate from './components/sales-by-date';
 import SalesSummary from './components/sales-summary';
 import PieChartCard from './components/pie-chart-card';
+import SalesTable from './components/sales-table';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <PieChartCard name="Lojas" labels={['Uberlândia', 'Araguari', 'Uberaba']} series={[40, 30, 30]} />
           <PieChartCard name="Pagamento" labels={['Crédito', 'Débito', 'Dinheiro']} series={[20, 50, 30]} />
         </div>
+        <SalesTable />
       </div>
     </>
   );
